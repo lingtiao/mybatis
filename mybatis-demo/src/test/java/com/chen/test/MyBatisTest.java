@@ -36,6 +36,8 @@ public class MyBatisTest {
 
         SqlSession sqlSession = sqlSessionFactory.openSession();
 
+
+
         BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
         Brand brand= mapper.selectById(id);
         System.out.println(brand);
