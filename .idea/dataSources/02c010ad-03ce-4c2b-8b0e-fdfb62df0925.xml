@@ -778,17 +778,77 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
     </user>
     <table id="234" parent="2" name="account"/>
-    <column id="235" parent="234" name="id">
+    <table id="235" parent="4" name="tb_brand"/>
+    <table id="236" parent="4" name="tb_user"/>
+    <column id="237" parent="234" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
     </column>
-    <column id="236" parent="234" name="name">
+    <column id="238" parent="234" name="name">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
-    <column id="237" parent="234" name="money">
+    <column id="239" parent="234" name="money">
       <Position>3</Position>
       <DataType>varchar(32)|0s</DataType>
     </column>
+    <column id="240" parent="235" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="241" parent="235" name="brand_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="242" parent="235" name="company_name">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="243" parent="235" name="ordered">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="244" parent="235" name="description">
+      <Position>5</Position>
+      <DataType>varchar(100)|0s</DataType>
+    </column>
+    <column id="245" parent="235" name="status">
+      <Position>6</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <key id="246" parent="235" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="247" parent="236" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="248" parent="236" name="username">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="249" parent="236" name="password">
+      <Position>3</Position>
+      <DataType>varchar(20)|0s</DataType>
+    </column>
+    <column id="250" parent="236" name="gender">
+      <Position>4</Position>
+      <DataType>char(1)|0s</DataType>
+    </column>
+    <column id="251" parent="236" name="addr">
+      <Position>5</Position>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <key id="252" parent="236" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
