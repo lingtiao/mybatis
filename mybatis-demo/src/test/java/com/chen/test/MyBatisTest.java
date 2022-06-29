@@ -29,7 +29,7 @@ public class MyBatisTest {
     @Test
     public void testSelectById() throws IOException {
 
-        int id =1;
+        int id = 1;
         String resource = "mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);

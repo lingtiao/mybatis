@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecaee120-5db8-4f5e-9987-56f076df6782" name="变更" comment="" />
+    <list default="true" id="ecaee120-5db8-4f5e-9987-56f076df6782" name="变更" comment="2022年6月29日15点53分">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/chen/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/chen/test/MyBatisTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,9 +44,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/chen/mapper" />
@@ -149,8 +155,16 @@
       <workItem from="1656421292578" duration="150000" />
       <workItem from="1656421455494" duration="195000" />
       <workItem from="1656466702771" duration="6181000" />
-      <workItem from="1656472978677" duration="3287000" />
+      <workItem from="1656472978677" duration="4280000" />
     </task>
+    <task id="LOCAL-00001" summary="2022年6月29日15点53分">
+      <created>1656489224652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656489224653</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022年6月29日15点53分" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年6月29日15点53分" />
   </component>
 </project>
