@@ -31,7 +31,7 @@ public class MyBatisTest {
     @Test
     public void testSelectById() throws IOException {
 
-        int id = 1;
+        int id = 2;
         String resource = "mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
@@ -55,9 +55,10 @@ public class MyBatisTest {
         String brandName="华为";
 
         //处理参数
-        companyName = "%" + companyName + "%";
-        brandName = "%" +brandName +"%";
-        String resource = "mybatis-config.xml";
+
+//       companyName = "%" + companyName + "%";
+//       brandName = "%" +brandName +"%";
+
 
         //封装对象
        /* Brand brand = new Brand();
@@ -66,10 +67,11 @@ public class MyBatisTest {
         brand.setStatus(status);*/
 
         Map map = new HashMap();
-        map.put("status",status);
+        //map.put("status",status);
         map.put("companyName",companyName);
-        map.put("brandName",brandName);
+        //map.put("brandName",brandName);
 
+        String resource = "mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 
@@ -79,11 +81,11 @@ public class MyBatisTest {
 
         BrandMapper mapper = sqlSession.getMapper(BrandMapper.class);
 
-        //List<Brand> brands = mapper.selectByCondition(status, companyName, brandName);
+        //List<Brand> brands = mapper.selectByCondition(status,brandName,companyName);
         //List<Brand> brands = mapper.selectByCondition(brand);
         List<Brand> brands = mapper.selectByCondition(map);
 
-        System.out.println(brands);
+        System.out.println(brands.toString());
 
 
 
