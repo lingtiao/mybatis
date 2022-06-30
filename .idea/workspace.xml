@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecaee120-5db8-4f5e-9987-56f076df6782" name="变更" comment="2022年6月29日20点12分">
-      <change afterPath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/chen/test/UserMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca068704-dfd9-4a58-a861-b38f66c042e7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca068704-dfd9-4a58-a861-b38f66c042e7/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca068704-dfd9-4a58-a861-b38f66c042e7/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca068704-dfd9-4a58-a861-b38f66c042e7/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca068704-dfd9-4a58-a861-b38f66c042e7/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/chen/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/chen/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/chen/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-demo/src/main/java/com/chen/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/chen/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/chen/mapper/BrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/chen/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-demo/src/main/resources/com/chen/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/chen/test/MyBatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-demo/src/test/java/com/chen/test/MyBatisTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ecaee120-5db8-4f5e-9987-56f076df6782" name="变更" comment="2022年6月29日13点53分" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +178,7 @@
       <workItem from="1656466702771" duration="6181000" />
       <workItem from="1656472978677" duration="17692000" />
       <workItem from="1656504931370" duration="1044000" />
-      <workItem from="1656553387672" duration="6679000" />
+      <workItem from="1656553387672" duration="6979000" />
     </task>
     <task id="LOCAL-00001" summary="2022年6月29日15点53分">
       <created>1656489224652</created>
@@ -221,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656504778589</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022年6月29日13点53分">
+      <created>1656568398757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656568398757</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +238,8 @@
     <MESSAGE value="2022年6月29日16点06分" />
     <MESSAGE value="2022年6月29日17点00分" />
     <MESSAGE value="2022年6月29日20点12分" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022年6月29日20点12分" />
+    <MESSAGE value="2022年6月29日13点53分" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022年6月29日13点53分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
